@@ -8,6 +8,7 @@ import (
 )
 
 // album represents data about a record album.
+// testing
 type album struct {
 	ID     string  `json:"id"`
 	Title  string  `json:"title"`
