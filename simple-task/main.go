@@ -7,7 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-// album represents data about a record album.
+// album represents data about a record album.adsadad
 // testing
 type album struct {
 	ID     string  `json:"id"`
