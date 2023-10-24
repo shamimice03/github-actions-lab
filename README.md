@@ -193,6 +193,7 @@ jobs:
 ![image](https://github.com/shamimice03/github-actions-lab/assets/19708705/e21234e6-f36d-4b2f-a1de-a359eeec18bb)
 
 ## contexts.yaml
+Contexts are a way to access information about workflow runs, variables, runner environments, jobs, and steps. Each context is an object that contains properties, which can be strings or other objects. Contexts, objects, and properties will vary significantly under different workflow run conditions.
 This is a GitHub Actions workflow named `view contexts`.  The workflow is triggered manually using the `workflow_dispatch` event.The `view` job is defined to view and output various GitHub Actions contexts.
 
 ```yaml
