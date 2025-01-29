@@ -25,7 +25,7 @@ jobs:
     environment:  Testing
     steps:
     - name: GET DB Name
-      run: echo "${{ env.DATABASE_NAME }}"
+      run: echo $DATABASE_NAME
 
   without_environment_defined_job:
     runs-on: ubuntu-latest
